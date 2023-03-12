@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Inline&family=Eczar:wght@500&family=Open+Sans:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: rgb(221, 222, 226);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav{
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 4rem;
+    color: white;
+    background-color: black;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+    width: 3rem;
+    padding: 0 1.5rem;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.container{
+    min-height: 65vh;
+    margin: 1.5rem auto;
+    width: 70%;
+    background-color: #14171C;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bottom{
+    position: sticky;
+    height: 7rem;
+    background-color: black;
+    bottom:0;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 1rem;
+}
+
+.icons i{
+    cursor: pointer;
+    margin: 0 2rem;
+}
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+
+}
+
+.surahItem{
+    height: 2.5rem;
+    width: 25rem;
+    color: black;
+    display: flex;
+    background-color: white;
+    margin: 1rem 0;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 2rem;
+    padding: 0 .5rem;
+
+}
+
+.surahItem img{
+    height: 2rem;
+    margin: 0 23px;
+    border-radius: 50%;
+}
+
+.timeStamp{
+    cursor: pointer;
+
+}
+
+.surahItemContainer{
+    margin-top: 2rem;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.6s ease-in;
+}
